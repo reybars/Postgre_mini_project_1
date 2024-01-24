@@ -1,0 +1,15 @@
+
+
+<h1><%= total  %> Countries</h1>
+<ul>
+    <% countries.forEach(element => { %>
+        <li><%= element %> </li>
+    <% }); %>
+</ul>
+
+<script>
+    const country_codes = "<%= countries %>".split(",") 
+    console.log(country_codes)
+   
+    
+</script>
